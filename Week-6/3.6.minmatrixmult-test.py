@@ -23,7 +23,7 @@ test_cases = [
     }
 ]
 
-def run_test_cases(file_path='Week-6\\3.6.minmatrixmult_answer.py'):
+def run_test_cases(file_path='3.6.minmatrixmult.py'):
     spec = importlib.util.spec_from_file_location(module_name, file_path)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
