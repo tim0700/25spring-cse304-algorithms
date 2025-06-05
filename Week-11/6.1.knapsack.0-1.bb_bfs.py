@@ -13,7 +13,7 @@ def boundof(u: Node, n: int, W: float, w: List[float], p: List[float]) -> float:
         # Complete the code here
 
 def knapsack2(n: int, W: float, w: List[float], p: List[float]) -> float:
-    global count
+    count = 0
     queue = [] # Initialize Queue
     v = Node(0, 0, 0)
     bound = boundof(v, n, W, w, p)
